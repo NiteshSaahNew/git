@@ -1,4 +1,4 @@
-# Git Commands for Freshers — The Complete Cheatsheet
+# Git Commands — The Complete Cheatsheet
 
 **The 20 commands that do 95% of the work. Learn these, and you'll survive any team.**
 
