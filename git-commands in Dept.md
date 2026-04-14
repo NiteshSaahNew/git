@@ -408,7 +408,7 @@ git reset --hard abc123
 Reflog entries live for 90 days by default. If you've lost work in git, check reflog first. Most of the time, it's still there.
 
 <p align="center">
-  <img src="images/git-commands/reflog-safety-animated.svg" alt="Git reflog safety net — animated" width="100%"/>
+  <img src="images/git-commands/reflog-safety.png" alt="Git reflog safety net — animated" width="100%"/>
 </p>
 
 ---
