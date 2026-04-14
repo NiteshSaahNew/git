@@ -28,7 +28,7 @@ Git tracks your code in **4 places**:
 Every git command moves code between these 4 places. That's it.
 
 <p align="center">
-  <img src="images/git-commands-for-freshers/workflow-animated.svg" alt="Git's 4 buckets — animated" width="100%"/>
+  <img src="images/git-commands/workflow-animated.svg" alt="Git's 4 buckets — animated" width="100%"/>
 </p>
 
 > **In short:** `add` moves files to staging, `commit` moves staging to local repo, `push` moves local to remote, `pull` brings remote back to local.
@@ -165,7 +165,7 @@ git branch -D feature/abandoned
 A branch is just a movable pointer to a commit. Branches are cheap — create one for every feature, every bugfix, every experiment.
 
 <p align="center">
-  <img src="images/git-commands-for-freshers/branch-merge-animated.svg" alt="Branching and merging — animated" width="100%"/>
+  <img src="images/git-commands/branch-merge-animated.svg" alt="Branching and merging — animated" width="100%"/>
 </p>
 
 ### 8. `git checkout` — Switch branches
@@ -272,7 +272,7 @@ git stash apply stash@{1}
 **When to use:** your tech lead says "quick — jump to main and hotfix prod". You have uncommitted work you don't want to lose. Stash it, fix prod, come back, pop the stash.
 
 <p align="center">
-  <img src="images/git-commands-for-freshers/stash-animated.svg" alt="Git stash flow — animated" width="100%"/>
+  <img src="images/git-commands/stash-animated.svg" alt="Git stash flow — animated" width="100%"/>
 </p>
 
 ### 13. `git reset` — Undo commits
@@ -347,7 +347,7 @@ Rebase takes your commits and replays them on top of a new base. The result: a *
 - **reorder** — change commit order
 
 <p align="center">
-  <img src="images/git-commands-for-freshers/rebase-vs-merge-animated.svg" alt="Merge vs Rebase — animated" width="100%"/>
+  <img src="images/git-commands/rebase-vs-merge-animated.svg" alt="Merge vs Rebase — animated" width="100%"/>
 </p>
 
 ### 17. `git fetch` — Download without merging
@@ -408,7 +408,7 @@ git reset --hard abc123
 Reflog entries live for 90 days by default. If you've lost work in git, check reflog first. Most of the time, it's still there.
 
 <p align="center">
-  <img src="images/git-commands-for-freshers/reflog-safety-animated.svg" alt="Git reflog safety net — animated" width="100%"/>
+  <img src="images/git-commands/reflog-safety-animated.svg" alt="Git reflog safety net — animated" width="100%"/>
 </p>
 
 ---
@@ -417,7 +417,7 @@ Reflog entries live for 90 days by default. If you've lost work in git, check re
 
 This is the workflow you'll follow 99% of the time at your first job:
 
-![Team workflow](images/git-commands-for-freshers/team-workflow.png)
+![Team workflow](images/git-commands/team-workflow.png)
 
 > **Tip:** the animated workflow diagram above shows the same flow as a live process — each command moves code one step closer to production.
 
