@@ -569,5 +569,5 @@ That one habit will save you from 80% of the mistakes freshers make.
 - [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 - [Oh Shit, Git!?!](https://ohshitgit.com/) — quick recipes for when you mess up
 - [Learn Git Branching](https://learngitbranching.js.org/) — interactive visual git tutorial
--[Vijay
-vijaygupta18](https://github.com/vijaygupta18/TechVijayForYou/blob/main/git-commands-for-freshers.md)
+- [Vijay vijaygupta18](https://github.com/vijaygupta18/TechVijayForYou/blob/main/git-commands-for-freshers.md) - 
+vijaygupta18
